@@ -1,0 +1,16 @@
+:root { --navy:#0E2E66; --sky:#6CC8FF; --gold:#FFC93C; --ink:#2B2140; --cream:#FFF8EC; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(180deg, var(--sky), var(--navy)); color: var(--ink); min-height:100vh; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { text-align:center; color:#fff; margin-bottom: 24px; }
+header img { width:96px; height:96px; border-radius:22px; box-shadow:0 6px 20px rgba(0,0,0,.3); }
+header h1 { margin:12px 0 4px; font-size:2rem; text-shadow:0 2px 0 var(--ink); }
+header p { margin:0; opacity:.9; }
+.card { background: var(--cream); border-radius: 20px; padding: 24px; margin-bottom: 16px;
+  box-shadow: 0 6px 0 rgba(0,0,0,.18); line-height: 1.55; }
+.card h2 { margin-top:0; color: var(--navy); }
+a { color: #1E5BD6; }
+nav { text-align:center; margin-bottom: 20px; }
+nav a { color:#fff; margin: 0 10px; font-weight: 600; }
+footer { text-align:center; color:#fff; opacity:.8; font-size:.9rem; }
